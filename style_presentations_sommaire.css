@@ -1,0 +1,85 @@
+nav
+
+{
+
+margin-top: 0px;
+float: left;
+width: 430px;
+
+
+
+}
+
+
+section
+{
+	
+	margin-left: 430px;
+	margin-right: auto;
+	width: 730px;
+	
+}	
+
+
+
+
+h1
+{
+    font-family: Gill Sans, Verdana;
+	color: black;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+	font-weight: normal;
+	margin-top: 0px;
+	
+}
+
+
+p
+{
+    font-family: Helvetica, gill sans;
+	font-size: 14px;
+	color: gray;
+	line-height: 16px;
+	text-transform: ;
+	letter-spacing: 1px;
+	font-weight: normal;
+	text-align: justify;
+	margin: 1px;
+	margin-right : 20px;
+	border: 1px solid white;
+	word-wrap: break-word;
+	margin-left: auto;
+	margin-right: auto;
+	max-height : 230px;
+	
+}
+
+
+
+
+
+
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: silver;
+   font-style: normal;
+}
+
+
+
+.imageflottante
+{
+    float: left;
+}
+
+nav1
+{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    position: fixed;
+}

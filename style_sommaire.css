@@ -1,0 +1,253 @@
+body
+{
+	background-image: url("images/teste_sommaire-01.png") ;
+	background-repeat: no-repeat;
+	background-position: 250px 40px;
+
+}
+
+
+
+h1
+{
+    font-family: Gill Sans, Verdana;
+	color: black;
+	font-size: 13px;
+	line-height: 14px;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+	font-weight: bold;
+	margin: 10px;
+}
+
+
+p
+{
+    font-family: helvetica, gill sans;
+	font-size: 18px;
+	color: black;
+	line-height: 8px;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+	font-weight: normal;
+	margin: 28px;
+	
+}
+
+
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: silver;
+   font-style: normal;
+}
+
+
+
+.imageflottante
+{
+    float: right;
+}
+
+
+nav1
+{
+    position: absolute;
+    right: 63px;
+    bottom: 10px;
+}
+
+
+nav1b
+{
+    position: absolute;
+    left: 23px;
+    bottom: 10px;
+}
+
+
+
+nav2
+{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+nav3
+{
+    position: absolute;
+    right: 127px;
+    bottom: 10px;
+}
+
+nav4 /*lantern */
+{
+    position: absolute;
+    left: 1004px;
+    top: 102px;
+}
+
+
+[data-tip1] { /* lantern */
+    position: relative;
+    cursor: crosshair;
+    border-bottom: 0px dotted #aaa;
+}
+[data-tip1]:hover:after {
+    content: attr(data-tip1); /* lantern */
+    position: absolute;
+    top: 1em; left: 0;
+    white-space: nowrap; /* no wrapping */
+    padding: 5px 10px;
+    font-family: helvetica, gill sans;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: transparent;
+    color: grey;
+}
+
+
+nav5 /* cityzen */
+{
+    position: absolute;
+    left: 904px;
+    top: 323px;
+}
+
+[data-tip2] { /* cityzen */
+    position: relative;
+    cursor: crosshair;
+    border-bottom: 0px dotted #aaa;
+}
+
+
+[data-tip2]:hover:after {
+    content: attr(data-tip2); /* cityzen */
+    position: absolute;
+    top: 1em; right: 0;
+    white-space: nowrap; /* no wrapping */
+    padding: 5px 10px;
+    font-family: helvetica, gill sans;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: transparent;
+    color: grey;
+}
+
+
+
+
+nav6 /* Incremental */
+{
+    position: absolute;
+    left: 624px;
+    top: 185px;
+}
+
+
+[data-tip3] { /* incremental */
+    position: relative;
+    cursor: crosshair;
+    border-bottom: 0px dotted #aaa;
+}
+
+[data-tip3]:hover:after {
+    content: attr(data-tip3); /* incremental */
+    position: absolute;
+    top: 1em; left: 0;
+    white-space: nowrap; /* no wrapping */
+    padding: 5px 10px;
+    font-family: helvetica, gill sans;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: transparent;
+    color: grey;
+}
+
+
+nav7 /* canevas */
+{
+    position: absolute;
+    left: 705px;
+    top: 552px;
+}
+
+
+[data-tip4] { /* canevas */
+    position: relative;
+    cursor: crosshair;
+    border-bottom: 0px dotted #aaa;
+}
+
+[data-tip4]:hover:after {
+    content: attr(data-tip4); /* canevas */
+    position: absolute;
+    top: 1em; left: 0;
+    white-space: nowrap; /* no wrapping */
+    padding: 5px 10px;
+    font-family: helvetica, gill sans;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: transparent;
+    color: grey;
+}
+
+
+
+nav8 /* cuisine en ville */
+{
+    position: absolute;
+    left: 500px;
+    top: 405px;
+}
+
+
+[data-tip5] { /* cuisine en ville */
+    position: relative;
+    cursor: crosshair;
+    border-bottom: 0px dotted #aaa;
+}
+
+[data-tip5]:hover:after {
+    content: attr(data-tip5); /* cuisine en ville */
+    position: absolute;
+    top: 1em; left: 0;
+    white-space: nowrap; /* no wrapping */
+    padding: 5px 10px;
+    font-family: helvetica, gill sans;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: transparent;
+    color: grey;
+}
+
+
+nav9 /* 24h chrono */
+{
+    position: absolute;
+    left: 955px;
+    top: 450px;
+}
+
+
+[data-tip6] { /* 24h chrono */
+    position: relative;
+    cursor: crosshair;
+    border-bottom: 0px dotted #aaa;
+}
+
+[data-tip6]:hover:after {
+    content: attr(data-tip6); /* 24h chrono */
+    position: absolute;
+    top: 1em; right: 0;
+    white-space: nowrap; /* no wrapping */
+    padding: 5px 10px;
+    font-family: helvetica, gill sans;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: transparent;
+    color: grey;
+}
+

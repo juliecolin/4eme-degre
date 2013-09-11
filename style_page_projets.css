@@ -1,0 +1,75 @@
+
+
+header
+{
+    font-family: Gill Sans, Verdana;
+	color: black;
+	font-size: 16px;
+	line-height: 26px;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+	font-weight: normal;
+	margin-left: auto;
+	margin-right: auto;
+	width: 834px;
+	
+	
+}
+
+a
+{
+    
+	font-family: Gill Sans, Verdana;	
+	font-size: 14px;
+	color: black;
+	text-transform: normal;
+	text-decoration: none;
+	
+}
+
+
+h1
+{
+    font-family: Gill Sans, Verdana;
+	color: silver;
+	font-size: 16px;
+	line-height: 24px;
+		letter-spacing: 0px;
+	font-weight: normal;
+	margin-left: auto;
+	margin-right: auto;
+	width: 834px;
+	
+	
+	
+}
+
+
+p
+{
+    font-family: verdana;
+	font-size: 14px;
+	color: dark;
+	line-height: 16px;
+	text-transform: ;
+	letter-spacing: 1px;
+	font-weight: normal;
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+	width: 834px;
+	border: 1px solid white;
+	word-wrap: break-word;
+	
+
+}
+
+
+
+nav1
+{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    position: fixed;
+}
