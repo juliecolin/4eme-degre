@@ -23,13 +23,13 @@ h1
 
 p
 {
-    font-family: helvetica, gill sans;
+    font-family: HelveticaNeue-Light, Helvetica Neue Light;
 	font-size: 18px;
 	color: black;
 	line-height: 8px;
 	text-transform: uppercase;
 	letter-spacing: 0px;
-	font-weight: normal;
+	font-weight: 200;
 	margin: 28px;
 	
 }
