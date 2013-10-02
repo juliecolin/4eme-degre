@@ -251,3 +251,32 @@ nav9 /* 24h chrono */
     color: grey;
 }
 
+
+
+nav10 /* 24h chrono */
+{
+    position: absolute;
+    left: 720px;
+    top: 380px;
+}
+
+
+[data-tip6] { /* 24h chrono */
+    position: relative;
+    cursor: crosshair;
+    border-bottom: 0px dotted #aaa;
+}
+
+[data-tip6]:hover:after {
+    content: attr(data-tip6); /* 24h chrono */
+    position: absolute;
+    top: 1em; right: 0;
+    white-space: nowrap; /* no wrapping */
+    padding: 5px 10px;
+    font-family: helvetica, gill sans;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: transparent;
+    color: grey;
+}
+
