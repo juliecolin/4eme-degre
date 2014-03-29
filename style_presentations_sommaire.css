@@ -10,8 +10,9 @@ body
 a /* Liens par défaut (non survolés) */
 {
    text-decoration: none;
-   color: silver;
-   font-style: bold;
+   color: #c8c8c8;
+   font-style: normal;
+   font-weight: bold;
 }
 
 .top-block
