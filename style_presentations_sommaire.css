@@ -7,6 +7,13 @@ body
 	background-attachment: fixed;
 }
 
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: silver;
+   font-style: normal;
+}
+
 .top-block
 {
     background-color: white;
