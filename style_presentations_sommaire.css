@@ -1,85 +1,90 @@
-nav
-
+body
 {
-
-margin-top: 0px;
-float: left;
-width: 430px;
-
-
-
+	margin: 0px;
+	background-image: url(images/page-bg.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
-
-section
+.top-block
 {
-	
-	margin-left: 430px;
+    background-color: white;
+    height: 35px;
+    width: 100%;
+    margin-bottom: 30px;
+    border-bottom: solid 1px #bebebe;
+}
+
+header
+{
+	width: 980px;
 	margin-right: auto;
-	width: 730px;
-	
-}	
-
-
-
-
-h1
-{
-    font-family: Gill Sans, Verdana;
-	color: black;
-	font-size: 16px;
-	line-height: 24px;
-	text-transform: uppercase;
-	letter-spacing: 0px;
-	font-weight: normal;
-	margin-top: 0px;
-	
-}
-
-
-p
-{
-    font-family: Helvetica, gill sans;
-	font-size: 14px;
-	color: gray;
-	line-height: 16px;
-	text-transform: ;
-	letter-spacing: 1px;
-	font-weight: normal;
-	text-align: justify;
-	margin: 1px;
-	margin-right : 20px;
-	border: 1px solid white;
-	word-wrap: break-word;
 	margin-left: auto;
-	margin-right: auto;
-	max-height : 230px;
-	
 }
 
-
-
-
-
-
-a /* Liens par défaut (non survolés) */
+header h1
 {
-   text-decoration: none;
-   color: silver;
-   font-style: normal;
+	color: #c8c8c8;
+	font-family: Helvetica, Myriad Pro, Arial;
+	font-size: 24px;
+	font-weight: normal;
 }
 
+.content
+{
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;	
+}
 
+.content .optionnal-image-box, .content .optionnal-image-box img
+{
+	width: 270px;
+}
 
-.imageflottante
+.content .optionnal-image-box
+{
+	float: left;
+	width: 270px;
+	min-height: 10px;
+	display: block;
+}
+
+.content .text
+{
+	float: left;
+	margin-left: 20px;
+	width: 390px;
+	font-family: Helvetica, Myriad Pro, Arial;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: justify;
+}
+
+.content .text p
+{
+	margin-bottom: 20px;
+}
+
+footer
+{
+	width: 980px;
+    margin-top: 150px;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}   
+
+footer .logo
 {
     float: left;
+    margin-right: 515px;
 }
 
-nav1
-{
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    position: fixed;
+footer .right a {
+    margin-left: 33px;
+    margin-top: 71px;
+    display: block;
+    float: right;
 }
