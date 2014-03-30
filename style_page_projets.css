@@ -1,75 +1,137 @@
+body
+{
+	margin: 0px;
+}
 
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: black;
+   font-family: Helvetica, Myriad Pro, Arial;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+.top-block
+{
+    background-color: white;
+    height: 35px;
+    width: 100%;
+    margin-bottom: 30px;
+    border-bottom: solid 1px #bebebe;
+}
 
 header
 {
-    font-family: Gill Sans, Verdana;
-	color: black;
-	font-size: 16px;
-	line-height: 26px;
-	text-transform: uppercase;
-	letter-spacing: 0px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+header h1
+{
+	color: #c8c8c8;
+	font-family: Helvetica, Myriad Pro, Arial;
+	font-size: 24px;
 	font-weight: normal;
+	line-height: 5px;
+	padding: 0px 100px 0px 100px;
+}
+
+header h2
+{
+	color: #c8c8c8;
+	font-family: Helvetica, Myriad Pro, Arial;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 5px;
+	padding: 0px 100px 0px 100px;
+}
+
+header h3
+{
+	margin-top: 40px;
+	padding: 0px 100px 0px 100px;
+}
+
+header h3, header h3 *
+{
+	color: #969696;
+	font-family: Helvetica, Myriad Pro, Arial;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.content
+{
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+.content
+{
+	display: block;
+}
+
+.content img
+{
 	margin-left: auto;
 	margin-right: auto;
-	width: 834px;
-	
-	
+	display: block;
 }
 
-a
+
+.content .text
 {
-    
-	font-family: Gill Sans, Verdana;	
+	font-family: Helvetica, Myriad Pro, Arial;
 	font-size: 14px;
-	color: black;
-	text-transform: normal;
-	text-decoration: none;
-	
-}
-
-
-h1
-{
-    font-family: Gill Sans, Verdana;
-	color: silver;
-	font-size: 16px;
-	line-height: 24px;
-		letter-spacing: 0px;
-	font-weight: normal;
-	margin-left: auto;
-	margin-right: auto;
-	width: 834px;
-	
-	
-	
-}
-
-
-p
-{
-    font-family: verdana;
-	font-size: 14px;
-	color: dark;
-	line-height: 16px;
-	text-transform: ;
-	letter-spacing: 1px;
-	font-weight: normal;
+	line-height: 20px;
 	text-align: justify;
-	margin-left: auto;
-	margin-right: auto;
-	width: 834px;
-	border: 1px solid white;
-	word-wrap: break-word;
-	
+}
+
+.content .text h4
+{
+	padding: 0px 100px 0px 100px;
+	color: #000;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 10px;
+	margin-bottom: 0px;
+}
+
+.content .text p
+{
+	font-size: 13px;
+	margin-bottom: 20px;
+	padding: 0px 100px 0px 100px;
+	font-family: Helvetica, Myriad Pro, Arial;
+	text-align: justify;
+}
+
+footer
+{
+	width: 980px;
+	position: fixed;
+    margin-right: auto;
+    margin-left: auto;
+    top: 0px;
+}   
+
+
+header .right
+{
 
 }
 
+header .right a {
+    display: block;
+    float: right;
+    width: 50px;
+    margin-right: -80px;
+    margin-top: -55px;
+}
 
-
-nav1
+header .right img
 {
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    position: fixed;
 }

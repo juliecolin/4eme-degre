@@ -16,6 +16,11 @@ a /* Liens par défaut (non survolés) */
    font-weight: bold;
 }
 
+a:hover
+{
+	color: #c8c8c8;
+}
+
 .top-block
 {
     background-color: white;
