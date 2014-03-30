@@ -134,4 +134,5 @@ header .right a {
 
 header .right img
 {
+	position: fixed;
 }
